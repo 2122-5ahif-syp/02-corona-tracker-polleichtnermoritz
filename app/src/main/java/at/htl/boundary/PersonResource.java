@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.time.Instant;
 
-@Path("/api/entry")
+@Path("/api/person")
 @Transactional
 public class PersonResource {
     @Inject
