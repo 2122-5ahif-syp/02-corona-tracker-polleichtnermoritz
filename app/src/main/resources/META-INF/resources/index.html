@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+<div class="div">
+    <form action="/person/add" method="post">
+        <h2 class="fs-title">Registration Form</h2>
+        <!--border: 2px red solid; if wrong input -->
+        <input type="text" autocomplete="off" name="firstName" id="firstName" placeholder="First Name">
+        <input type="text" autocomplete="off" name="lastName" id="lastName" placeholder="Last Name">
+        <input type="email" autocomplete="off" id="email" name="email" placeholder="Email"/>
+        <input type="tel" autocomplete="off" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+        <input type="submit" autocomplete="off" name="next" class="next action-button" id="action-button"
+               value="Add User"/>
+    </form>
+</div>
+</body>
+</html>
